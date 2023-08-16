@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>eMercado - Todo lo que busques está aquí</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/9d03074f80.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: rgb(248, 249, 250);
+    }
+  </style>
+</head>
+
+<body class="bg-dark">
+  <main class="mt-5 ">
+    <div class="container d-flex flex-column align-items-center">
+      <div>
+        <h1 class="text-center my-5 text-light">Entrar</h1>
+      </div>
+
+      <div class="w-75 d-flex justify-content-center b">
+        <form action="" id="form" class="form d-flex flex-column gap-2 w-50">
+
+          <!-- aca -->
+           <input type="email" class="form-control" name="email" id="email" placeholder="Email" required autofocus autocomplete="off">
+            <p class="text-danger req" id="errorEmail" ></p>
+
+            <div class="test">
+            <!-- aca -->
+              <input type="password" class="form-control req" name="password" id="password" placeholder="Contraseña" required autocomplete="off">
+
+
+              <div class="d-flex align-items-center z-3" id="ojo">
+                <i class="fa-solid fa-eye" ></i>
+              </div>
+            </div>
+
+            <p class="text-danger " id="errorPass"></p>
+
+
+          <div class="text-center my-2 ">
+
+            <input type="submit" class="btn btn-primary px-4" value="Entrar">
+
+          </div>
+        </form>
+      </div>
+
+
+    </div>
+  </main>
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-end">
+        <a href="#">Volver arriba</a>
+      </p>
+      <p>Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a Programar</a></p>
+    </div>
+  </footer>
+  <script src="js/login.js"></script>
+</body>
+
+</html>
